@@ -1,0 +1,165 @@
+body, html {
+    height: 100%;
+    background-color: #081631;
+    margin: 0;
+    font-family: "Arial", Times, serif;
+    font-weight: bold;
+    
+}
+
+
+body2 {
+    height: 100%;
+    background-color: #081631;
+    margin: 0;
+    font-family: "Arial", Times, serif;
+    font-weight: bold;
+    
+}
+
+body3 {
+    height: 100%;
+    background-color:#95C7BE;
+    margin: 0;
+    font-family: "Arial", Times, serif;
+    font-weight: bold;
+}
+
+
+/* Menu */
+
+div.topnav {
+  
+  width: 100%;
+  align-content: center;
+  overflow: hidden;
+  background-color: #919bb7;
+  
+  
+    
+}
+
+.topnav a {
+  border: 7px solid #323E51;
+  background: linear-gradient(to bottom right, #2C354C, #8795A2); /* Standard syntax (must be last) */
+  
+  width: 18.2%;
+  float: left;
+  display: inline;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;  
+  font-size: 17px;
+  position: relative;
+    
+  
+  
+}
+
+.topnav a:hover {
+    
+  background-color: #323E51;
+    text-decoration: underline;
+    text-shadow: 2px 3px #323E51;
+
+    
+  
+}
+
+
+
+/* Hlavicka obrazek */
+
+.hlavicka {
+    /* The image used */
+    background-image: url("src/uvod/hlava_pozadi.jpg");
+
+    /* Set a specific height */
+    height: 35%;
+    width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hlavicka-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 35px;
+}
+
+/* hlavicka 1*/
+
+.hlavicka1 {
+    /* The image used */
+    background-image: url("src/prvnidil/hlava.jpg");
+
+    /* Set a specific height */
+    height: 35%;
+    width: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+/* Telo textu */
+
+.telo {
+    height: 100%;
+    width: 100%;
+    background-image: url("src/uvod/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* Telo textu 1*/
+
+.telo1 {
+    height: 100%;
+    width: 100%;
+    /*background-image: url("src/prvnidil/pozadi.jpg");*/
+    background-color: #081631;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.telo3 {
+    height: 100%;
+    width: 100%;    
+    background-color: #95C7BE;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pepa {
+    width: auto;
+    max-height: 90%;
+    display: block;
+    margin: auto;
+    color: bisque;
+    font-size: 50px;
+}
+
+
