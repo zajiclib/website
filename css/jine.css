@@ -1,0 +1,94 @@
+html,
+body {
+    background-color: #422045;
+}
+.main {
+    margin: auto;    
+    height: 2340px;
+    width: 1220px;
+    background: url(../src/jinetexty/bg.jpg) no-repeat center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    text-align: center;
+}
+.header {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+.nadpis {
+    margin-top: 50px;
+    color: #DD7746;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 3pt;
+}
+
+.pdfka {
+    color: white;
+    font-size: 30px;
+    line-height: 30pt;
+    text-align: left;
+    padding-left: 250px;
+    font-weight: normal;
+    letter-spacing: 1pt;
+    word-spacing: 4pt;
+    
+}
+
+.pdf img {
+    position: relative;
+    width: 90px;
+    height: auto;
+    top:-40px;
+    left: 600px;
+}
+
+.pdf img:hover {
+    filter: invert(1);
+}
+
+.pdf2 img {
+   position: relative;
+    width: 90px;
+    height: auto;
+    top:-60px;
+    left: 600px;
+}
+
+.pdf2 img:hover {
+    filter: invert(1);
+}
+
+.pdf3 img {
+    position: relative;
+    width: 90px;
+    height: auto;
+    top:-50px;
+    left: 600px;
+}
+
+
+.pdf3 img:hover {
+    filter: invert(1);
+}
+
+.pdf4 img {
+    position: relative;
+    width: 90px;
+    height: auto;
+    top:-80px;
+    left: 600px;
+}
+
+
+.pdf4 img:hover {
+    filter: invert(1);
+}

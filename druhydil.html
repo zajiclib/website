@@ -1,325 +1,227 @@
+<!DOCTYPE HTML>
 
-<!DOCTYPE html>
-<meta charset="utf-8">
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="cs">
+
 <head>
-    <link rel="stylesheet" href="main.css">
-    <title>II. díl</title>
-    <style>
-        
-        .header {
-    /* The image used */
-    background-image: url("src/druhydil/header.jpg");
+    <meta charset="utf-8">
 
-    /* Set a specific height */
-    height: 48%;
-    width: 100%;
+    <title>II. Díl</title>
+    <meta name="description" content="První věta bible">
+    <meta name="author" content="">
 
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.header-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    font-size: 40px;
-}
-        .obr {
-            bottom: 650px;
-            right: -500px;
-            width: 211px;
-            height: 275px;
-            opacity: 0.8;
-            border:;
-            position: absolute;
-        }
-        .obr:hover {
-            -webkit-box-shadow: -2px 2px 100px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 100px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 100px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-    
-    
-        .kap {
-            bottom: 950px;
-            left: -920px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            
-            position: absolute;
-        }
-        .kap:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        
-        .kap2 {
-            bottom: 950px;
-            left: -750px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            
-            position: absolute;
-        }
-        .kap2:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        
-        .kap3 {
-            bottom: 1600px;
-            left: -750px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            
-            position: absolute;
-        }
-        .kap3:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        
-        .kap4 {
-            bottom: 1600px;
-            left: -570px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-        }
-        .kap4:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        
-        .kap5 {
-            bottom: 1600px;
-            left: -370px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-            
-        }
-        .kap5:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-        
-        .kap6 {
-            bottom: 1600px;
-            left: -170px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-            
-        }
-        .kap6:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-        
-        .kap7 {
-            bottom: 1600px;
-            left: 200px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-            
-        }
-        .kap7:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-        
-        .kap8 {
-            bottom: 1600px;
-            left: 400px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-            
-        }
-        .kap8:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-        
-        .kap9 {
-            bottom: 1600px;
-            left: 600px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            position: absolute;
-            
-        }
-        .kap9:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
-        }
-        
-        .kap10 {
-            bottom: 950px;
-            left: 600px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            
-            position: absolute;
-        }
-        .kap10:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        .kap11 {
-            bottom: 950px;
-            left: 770px;
-            width: 150px;
-            height: 250px;
-            opacity: 0.8;
-            
-            position: absolute;
-        }
-        .kap11:hover{
-            -webkit-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            -moz-box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            box-shadow: -2px 2px 70px 0px rgba(43,168,32,1);
-            opacity: 1;
- 
-        }
-        
-        .kap12 {
-            bottom: -950px;
-            left: -590px;
-            position: absolute;
-            width: 1142px;
-            height: auto;
-        }
-        .bonmot1 {
-    position: relative;
-    color: white;
-    font-weight: 100;
-    line-height: 1;
-    text-decoration: underline;
+    <link rel="stylesheet" href="css/druhydil.css">
 
-}
-        
-        
-.mid {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    text-align: center;
-    line-height: 1.35;
-    word-spacing: 0.15em;
-    line-height: 1.40;
-    
-}
-img { 
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-    </style>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
+
 <body>
-    
-<div class="header">
-  <div class="header-text">
-      
-    <h1 style="text-shadow: 7px 7px #000000;">PRVNÍ VĚTA BIBLE</h1>
-      
-    <p style="color:#95c989 ;margin-left:30px;">"Na počátku Bůh stvořil nebe a zemi" Gen 1:1</p>
-    <p style="color:#97a2bf;margin-left:30px; font-size:30px;">O nutnosti proměny člověka z pozemšťana v nebešťana.</p>
-    <p style="color:#f45400;margin-left:30px;">autor MgA. Jaroslav Rada</p>
-    
-    
-  </div>
-</div>
-    
-<div class="topnav">
-  <a href="index.html">ÚVOD</a>
-  <a href="map.html">MAPA STRÁNEK</a>
-  <a href="#personal">OSOBNÍ</a>
-  <a href="#about">JINÉ TEXTY</a>
-  <a href="#other">KONTAKT</a>
-</div>
+    <div class="main">
 
 
-<div class="bonmot1">
-    
-    <img src="src/druhydil/background.jpg" border="0" width="1562" height="2489">
-    
-    
-    
-    <div class="mid">
-        
-        <a href="bonmoty/14.html"><img src="src/druhydil/14.bmp" class="kap" title="14. díl"></a>
-        <a href="bonmoty/15_16_17.html"><img src="src/druhydil/15_17.bmp" class="kap2" title="15., 16. a 17. díl"></a>
-        
-        <a href="bonmoty/18_19.html"><img src="src/druhydil/18_19.bmp" class="kap3" title="18. a 19. díl"></a>
-        <a href="bonmoty/20_21.html"><img src="src/druhydil/20_21.bmp" class="kap4" title="20. dil"></a>
-        <a href="bonmoty/22.html"><img src="src/druhydil/22.bmp" class="kap5" title="22. dil"></a>
-        <a href="bonmoty/23.html"><img src="src/druhydil/23.bmp" class="kap6" title="23. dil"></a>
-        
-        <a href="bonmoty/24_25.html"><img src="src/druhydil/24_25.bmp" class="kap7" title="24. a 25. dil"></a>
-        <a href="bonmoty/26_27_28.html"><img src="src/druhydil/26_28.bmp" class="kap8" title="24. a 25. dil"></a>
-        <a href="bonmoty/29_30.html"><img src="src/druhydil/29_30.bmp" class="kap9" title="29. a 30. dil"></a>
-        
-        <a href="bonmoty/31.html"><img src="src/druhydil/31.bmp" class="kap10" title="31. díl"></a>
-        <a href="bonmoty/32_33.html"><img src="src/druhydil/32_33.bmp" class="kap11" title="32. a 33 díl"></a>
-        
-        <img src="src/druhydil/pcs.jpg" class="kap12">
-        
+        <div class="header"> <span style="text-shadow:4px 3px 4px rgba(0,0,0,1);font-weight:bold;color:#FF0000;letter-spacing:4.75pt;word-spacing:0pt;font-size:65px;text-align:center;font-family:arial, helvetica, sans-serif;">PRVNÍ VĚTA BIBLE</span>
+            <br>
+            <span style="font-weight:bold;color:#D3F996;letter-spacing:2pt;word-spacing:1pt;font-size:22px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:2;">"Na počátku Bůh stvořil nebe a zemi." Gen 1:1 </span>
+            <br>
+            <span style="font-weight:normal;color:#CDCAF9;letter-spacing:2pt;word-spacing:1pt;font-size:30px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:2.5;">O nutnosti proměny člověka z pozemšťana v nebešťana</span>
+            <br>
+            <span style="font-weight:bold;color:#F36115;letter-spacing:2pt;word-spacing:0pt;font-size:25px;text-align:left;font-family:arial, helvetica, sans-serif;line-height:2;">autor  MgA. Jaroslav RADA</span>
+        </div>
+
+        <div class="odstavecl">
+            <p>VÍRA -
+                <br> -CTNOST - POZNÁNÍ -
+                <br> - ZDRŽENLIVOST - TRPĚLIVOST -
+                <br> - ZBOŽNOST -
+                <br> - BRATRSKÁ NÁKLONNOST -
+                <br> - LÁSKA
+
+            </p>
+        </div>
+        <div class="odstavecp">
+            Seznam vlasností z 2Pt1:5-7
+            <br> poskytuje dokonalý technický návod na
+            <br> PROCES PROMĚNY z pozemšťana v nebešťana,
+            <br> o který celé lidstvo hříchem přišlo.
+            <br> Tato proměna může nastat s každým člověkem
+            <br> hned po té, co uvěří a přijme Kristova Ducha
+            <br> a ne až po smrti v nebi.
+            <br>
+        </div>
+
+        <div class="nadpis">Hlavní myšlenky a obrázky kapitol: </div>
+
+        <div class="domu">
+            <a href="index.html"><img src="src/druhy/domuk.png" onmouseout="domu(this)" onmouseover="undomu(this)"></a>
+        </div>
+        <div class="osobni">
+            <a href="osobni.html"><img src="src/druhy/osobk.png" onmouseover="osobs(this)" onmouseout="osob(this)"></a>
+        </div>
+
+        <div class="kap14">
+            <a href="bonmoty/14.html"><img src="src/druhy/napek.png" onmouseover="nape(this)" onmouseout="napek(this)"></a>
+        </div>
+        <div class="kap15">
+            <a href="bonmoty/15_16_17.html"><img src="src/druhy/zarok.png" onmouseover="zaros(this)" onmouseout="zarok(this)"></a>
+        </div>
+        <div class="kap22">
+            <a href="bonmoty/22.html"><img src="src/druhy/zak.png" onmouseover="zaks(this)" onmouseout="zak(this)"></a>
+        </div>
+        <div class="kap18">
+            <a href="bonmoty/18_19.html"><img src="src/druhy/drenk.png" onmouseover="drens(this)" onmouseout="drenk(this)"></a>
+        </div>
+        <div class="kap20">
+            <a href="bonmoty/20_21.html"><img src="src/druhy/antk.png" onmouseover="ants(this)" onmouseout="antk(this)"></a>
+        </div>
+        <div class="kap23">
+            <a href="bonmoty/23.html"><img src="src/druhy/bratk.png" onmouseover="brats(this)" onmouseout="bratk(this)"></a>
+        </div>
+        <div class="kap24">
+            <a href="bonmoty/24_25.html"><img src="src/druhy/kmenk.png" onmouseover="kmens(this)" onmouseout="kmenk(this)"></a>
+        </div>
+        <div class="kap26">
+            <a href="bonmoty/26_27_28.html"><img src="src/druhy/fork.png" onmouseover="fors(this)" onmouseout="fork(this)"></a>
+        </div>
+        <div class="kap32">
+            <a href="bonmoty/32_33.html"><img src="src/druhy/celek.png" onmouseover="celes(this)" onmouseout="celek(this)"></a>
+        </div>
+        <div class="kap29">
+            <a href="bonmoty/29_30.html"><img src="src/druhy/hejnak.png" onmouseover="hejnas(this)" onmouseout="hejnak(this)"></a>
+        </div>
+        <div class="kap31">
+            <a href="bonmoty/31.html"><img src="src/druhy/laskak.png" onmouseout="kaps31(this)" onmouseover="kap31(this)"></a>
+        </div>
+
+        <div class="gallery">
+            <a href="druhydil_galerie.html"><img src="src/druhy/gall.png"></a>
+        </div>
+
     </div>
 
+    <script>
+        function domu(element) {
+            element.setAttribute('src', 'src/druhy/domuk.png');
+        }
 
+        function undomu(element) {
+            element.setAttribute('src', 'src/druhy/domus.png');
+        }
+        /*  31 */
+        function kap31(element) {
+            element.setAttribute('src', 'src/druhy/laskas.png');
+        }
 
-    
-</div>
-    
-    
+        function kaps31(element) {
+            element.setAttribute('src', 'src/druhy/laskak.png');
+        }
+
+        function osobs(element) {
+            element.setAttribute('src', 'src/druhy/osobs.png');
+        }
+
+        function osob(element) {
+            element.setAttribute('src', 'src/druhy/osobk.png');
+        }
+
+        function nape(element) {
+            element.setAttribute('src', 'src/druhy/napes.png');
+        }
+
+        function napek(element) {
+            element.setAttribute('src', 'src/druhy/napek.png');
+        }
+
+        function zaros(element) {
+            element.setAttribute('src', 'src/druhy/zaros.png');
+        }
+
+        function zarok(element) {
+            element.setAttribute('src', 'src/druhy/zarok.png');
+        }
+
+        function zaks(element) {
+            element.setAttribute('src', 'src/druhy/zas.png');
+        }
+
+        function zak(element) {
+            element.setAttribute('src', 'src/druhy/zak.png');
+        }
+
+        function drens(element) {
+            element.setAttribute('src', 'src/druhy/drens.png');
+        }
+
+        function drenk(element) {
+            element.setAttribute('src', 'src/druhy/drenk.png');
+        }
+
+        function ants(element) {
+            element.setAttribute('src', 'src/druhy/ants.png');
+        }
+
+        function antk(element) {
+            element.setAttribute('src', 'src/druhy/antk.png');
+        }
+
+        function brats(element) {
+            element.setAttribute('src', 'src/druhy/brats.png');
+        }
+
+        function bratk(element) {
+            element.setAttribute('src', 'src/druhy/bratk.png');
+        }
+
+        function kmens(element) {
+            element.setAttribute('src', 'src/druhy/kmens.png');
+        }
+
+        function kmenk(element) {
+            element.setAttribute('src', 'src/druhy/kmenk.png');
+        }
+
+        function fors(element) {
+            element.setAttribute('src', 'src/druhy/fors.png');
+        }
+
+        function fork(element) {
+            element.setAttribute('src', 'src/druhy/fork.png');
+        }
+
+        function hejnas(element) {
+            element.setAttribute('src', 'src/druhy/hejnas.png');
+        }
+
+        function hejnak(element) {
+            element.setAttribute('src', 'src/druhy/hejnak.png');
+        }
+
+        function celes(element) {
+            element.setAttribute('src', 'src/druhy/celeks.png');
+        }
+
+        function celek(element) {
+            element.setAttribute('src', 'src/druhy/celek.png');
+        }
+
+    </script>
+
 </body>
+
 </html>

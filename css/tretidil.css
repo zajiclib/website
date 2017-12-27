@@ -1,0 +1,98 @@
+html, body {
+    background-color: #081538;
+    
+}
+
+.main {
+    margin: auto;
+    height: 2710px;
+    width: 1220px;
+    background: url(../src/treti/bg.jpg) no-repeat center;
+    align-content: center;
+}
+
+.header {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+}
+.nadpis {
+    color: #BAE2BF;
+    font-size: 20px;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bolder;
+    white-space: pre;
+    position: relative;
+    top: 560px;
+    text-align: center;
+    left: 20px;
+    word-spacing: 2pt;
+    letter-spacing: 1.5pt;
+}
+
+.domu img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 300px;
+    left: 983px;
+}
+
+.kap38 img {
+    position: relative;
+    height: 130px;
+    width: auto;
+    top: 350px;
+    left: 140px;
+}
+
+.kap34 img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 490px;
+    left: 240px;
+}
+
+.kap36 img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 700px;
+    left: 20px;
+}
+
+.kap40 img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: -70px;
+    left: 850px;
+}
+
+.kap41 img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 160px;
+    left: 980px;
+}
+
+.jinetexty img {
+    position: relative;
+    height: 150px;
+    width: auto;
+    top: 900px;
+    left: 50px;
+}
+
+
+
+
+
+
+
+

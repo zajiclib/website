@@ -1,0 +1,168 @@
+html,
+body {
+    background-color: #0E1A34;
+}
+.main {
+    margin: auto;
+    height: 2691px;
+    width: 1220px;
+    background: url(../src/osobni/bg.jpg) no-repeat center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    text-align: center;
+}
+.header {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+.nadpis {
+    margin-top: 50px;
+    color: #DF754A;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3pt;
+}
+.domu img {
+    position: relative;
+    top: -100px;
+    left: 500px;
+    width: 120px;
+    height: auto;
+}
+.gall img {
+    position: relative;
+    width: 500px;
+    height: 85px;
+    top: -2350px;
+    left: 990px;
+    opacity: 0;
+}
+.gall2 img {
+    position: relative;
+    width: 400px;
+    height: 85px;
+    top: -2320px;
+    left: 1100px;
+    opacity: 0;
+}
+.gall3 img {
+    position: relative;
+    width: 480px;
+    height: 100px;
+    top: -2240px;
+    left: 1020px;
+    opacity: 0;
+}
+.gall4 img {
+    position: relative;
+    width: 550px;
+    height: 90px;
+    top: -2209px;
+    left: 945px;
+    opacity: 0;
+}
+.gall5 img {
+    position: relative;
+    width: 700px;
+    height: 90px;
+    top: -2079px;
+    left: 840px;
+    opacity: 0;
+}
+.gall6 img {
+    position: relative;
+    width: 700px;
+    height: 90px;
+    top: -2025px;
+    left: 840px;
+    opacity: 0;
+}
+.gall7 img {
+    position: relative;
+    width: 600px;
+    height: 90px;
+    top: -1975px;
+    left: 900px;
+    opacity: 0;
+}
+.gall8 img {
+    position: relative;
+    width: 600px;
+    height: 90px;
+    top: -1855px;
+    left: 900px;
+    opacity: 0;
+}
+.gall9 img {
+    position: relative;
+    width: 600px;
+    height: 90px;
+    top: -1810px;
+    left: 900px;
+    opacity: 0;
+}
+.gall10 img {
+    position: relative;
+    width: 750px;
+    height: 90px;
+    top: -1760px;
+    left: 750px;
+    opacity: 0;
+}
+.gall11 img {
+    position: relative;
+    width: 750px;
+    height: 90px;
+    top: -1712px;
+    left: 750px;
+    opacity: 0;
+}
+.gall12 img {
+    position: relative;
+    width: 950px;
+    height: 90px;
+    top: -1600px;
+    left: 550px;
+    opacity: 0;
+}
+.gall13 img {
+    position: relative;
+    width: 950px;
+    height: 90px;
+    top: -1555px;
+    left: 550px;
+    opacity: 0;
+}
+.gall14 img {
+    position: relative;
+    width: 950px;
+    height: 90px;
+    top: -1500px;
+    left: 550px;
+    opacity: 0;
+}
+.gall15 img {
+    position: relative;
+    width: 950px;
+    height: 90px;
+    top: -1455px;
+    left: 550px;
+    opacity: 0;
+}
+
+.odkaz img {
+    position: relative;
+    width: 400px;
+    height: 70px;
+    top: -3230px;
+    left: 1050px;
+    opacity: 0;
+}

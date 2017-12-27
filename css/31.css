@@ -1,0 +1,114 @@
+html,
+body {
+    background-color: #903459;
+}
+.main {
+    margin: auto;
+    height: 3174px;
+    width: 1220px;
+    background: url(../src/31/bg.jpg) no-repeat center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    text-align: center;
+}
+.header {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+.podnadpis {
+    padding-top: 12px;
+    color: rgb(255, 128, 0);
+    line-height: 2pt;
+    letter-spacing: 1.5pt;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.podnadpis h2 {
+    font-size: 35px;
+    word-spacing: 2pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    font-weight: bold;
+    color: white;
+}
+.kapitola {
+    font-family: sans-serif, arial;
+    font-size: 20px;
+    color: white;    
+    font-weight: normal;
+    
+}
+.text {
+    
+    color: white;
+    font-size: 21px;
+    font-family: "Arial", arial, sans-serif;
+}
+.napis {
+    font-weight: bold;
+    
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 34px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+    color: white;
+}
+.mysl {
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 32px;
+    
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+}
+.pdf img {
+    position: relative;
+    top: -1600px;
+    left: 350px;
+    width: 150px;
+    height: auto;
+}
+.pdf img:hover {
+    filter: invert(1);
+}
+
+.gall img {
+    position: relative;
+    top: -50px;
+    left: -10px;
+    width: 1000px;
+    height: auto;
+    opacity: 0;
+}
+
+.pecet img {
+    position: relative;
+    top: -1305px;
+    left: -500px;
+    width: 110px;
+}
+.pecet2 img {
+    position: relative;
+    top: -1280px;
+    left: -500px;
+    width: 110px;
+}
+.pecet3 img {
+    position: relative;
+    top: -800px;
+    left: -500px;
+    width: 110px;
+}

@@ -1,89 +1,265 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    
+﻿<!DOCTYPE HTML>
+
+<html lang="cs">
+
 <head>
-    <link rel="stylesheet" href="main.css">
-    <title>Mapa stránek</title>
-    
-    <style>
-        
-.header {
-    /* The image used */
-    background-image: url("src/uvod/hlava_pozadi.jpg");
+    <meta charset="utf-8">
 
-    /* Set a specific height */
-    height: 48%;
-    width: 100%;
+    <title>PVB - První věta bible</title>
 
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.header-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    font-size: 40px;
-}
-        
-        
-.bonmot1 {
-    position: relative;
-    color: white;
-    font-weight: 100;
-    line-height: 1;
-    text-decoration: underline;
+    <script src="js/jquery.sweet-modal.min.js" async></script>
+    <script src="js/jquery.min.js"></script>
 
-}
-    
+    <script src="js/jquery.sweet-modal.min.js"></script>
+    <link rel="stylesheet" href="js/jquery.sweet-modal.min.css">
+    <meta name="description" content="První věta bible - O knize pojednávající o základních otázkách křesťanství">
+    <link rel="canonical" href="http://www.prvnivetabible.cz/">
+    <meta property="og:title" content="První věta bible - Hlavní myšlenky">
+    <meta property="og:type" content="website">
+        
+    <meta property="og:site_name" content="PVB - První věta bible">
+    <meta property="og:description" content="První věta bible - O knize pojednávající o základních otázkách křesťanství - Jaroslav Rada">
 
-img { 
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-        
-        
-</style>
+
+    <meta name="robots" content="all" />
+    <meta name="author" content="Jaroslav RADA">
+    <meta name="keywords" content="první věta Bible,
+nebe, země, pozemšťan, nebešťan
+stvoření, spasení, housenka, kukla, motýl, proměna,
+Adam, Ježíš, Kristus, hřích, desatero, kříž, znovuzrození,
+něcisté, postmoderna, reformace, veřejný prostor, 
+ponebesí, organická církev, strom života, ztracený ráj,
+trpělivost, zbožnost, láska, understanding, spravedlnost, soud,
+metapříběh lidstva, Melchisedech, pokoj, Henoch">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
 </head>
+
 <body>
-    
-<div class="header">
-  <div class="header-text">
-      
-    <h1 style="text-shadow: 10px 10px #000000;">PRVNÍ VĚTA BIBLE</h1>
-      
-    <p style="color:#95c989 ;margin-left:30px;">"Na počátku Bůh stvořil nebe a zemi" Gen 1:1</p>
-    <p style="color:#97a2bf;margin-left:30px; font-size:30px;">O nutnosti proměny člověka z pozemšťana v nebešťana.</p>
-    <p style="color:#f45400;margin-left:30px;">autor MgA. Jaroslav Rada</p>
-    
-    
-  </div>
-</div>
-    
-<div class="topnav">
-  <a href="index.html">ÚVOD</a>
-  <a href="map.html">MAPA STRÁNEK</a>
-  <a href="#personal">OSOBNÍ</a>
-  <a href="#about">JINÉ TEXTY</a>
-  <a href="#other">KONTAKT</a>
-</div>
+
+    <div class="main">
+
+        <div class="header"> <span style="text-shadow:4px 3px 4px rgba(0,0,0,1);font-weight:bold;color:#FF0000;letter-spacing:4.75pt;word-spacing:0pt;font-size:65px;text-align:center;font-family:arial, helvetica, sans-serif;">PRVNÍ VĚTA BIBLE</span>
+            <br>
+            <span style="font-weight:bold;color:#D3F996;letter-spacing:2pt;word-spacing:1pt;font-size:22px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:2;">"Na počátku Bůh stvořil nebe a zemi." Gen 1:1 </span>
+            <br>
+            <span style="font-weight:normal;color:#CDCAF9;letter-spacing:2pt;word-spacing:1pt;font-size:30px;text-align:center;font-family:arial, helvetica, sans-serif;line-height:2.5;">O nutnosti proměny člověka z pozemšťana v nebešťana</span>
+            <br>
+            <span style="font-weight:bold;color:#F36115;letter-spacing:2pt;word-spacing:0pt;font-size:25px;text-align:left;font-family:arial, helvetica, sans-serif;line-height:2;">autor  MgA. Jaroslav RADA</span>
+        </div>
+
+        <div class="telo">
+            hlavní myšlenky
+            <br> a obrázky kapitol:
+
+        </div>
 
 
-<div class="telo3">
-    
-<img src="src/uvod/background.jpg" border="0" alt="" />
 
-        
-</div>
+        <div class="prvni">
+            <a href="prvnidil.html"> <img onmouseover="hover(this);" onmouseout="unhover(this);" src="src/index/prvnidilk.png"></a>
+        </div>
+        <div class="druhy">
+            <a href="druhydil.html"> <img onmouseover="hover1(this);" onmouseout="unhover1(this);" src="src/index/druhydilk.png"></a>
+        </div>
+        <div class="treti">
+            <a href="tretidil.html"><img onmouseover="hover2(this);" onmouseout="unhover2(this);" src="src/index/tretidilk.png"></a>
+        </div>
+        <div class="ctvrty">
+            <a href="jine_texty.html"><img onmouseover="hover3(this);" onmouseout="unhover3(this);" src="src/index/otherk.png"></a>
+        </div>
+
+
+        <div class="sesty">
+            <a href="osobni.html"> <img onmouseover="hover5(this);" onmouseout="unhover5(this);" src="src/index/osk.png"></a>
+        </div>
+
+        <div class="cont">
+            <a id="contact" href="#"> <img id="contact" onmouseover="hover6(this);" onmouseout="unhover6(this);" src="src/index/kontk.png"></a>
+        </div>
+        <div class="osmy">
+            <a href="src/PDF/celakniha.pdf"> <img onmouseover="kniha(this);" onmouseout="unkniha(this);" src="src/index/knihk.png"></a>
+        </div>
+        <div class="domu">
+            <a href="#"> <img onmouseover="domu(this);" onmouseout="undomu(this);" src="src/index/domuk.png"></a>
+        </div>
+
+        <div class="galerie">
+            <a href="index_galerie.html"> <img src="src/index/tlac_gal.png"> </a>
+        </div>
+
+        <div class="mapa">
+            <a href="mapa.html"> <img onmouseover="hover4(this);" onmouseout="unhover4(this);" src="src/index/mapk.png"></a>
+        </div>
+
+    </div>
+
+<div class="seo" align="center">
     
+<!-- ---- ABZ rychle pocitadlo ---- -->
+<a href="http://pocitadlo.abz.cz/" style="text-align:center;" title="počítadlo přístupů: pocitadlo.abz.cz"><img src="http://pocitadlo.abz.cz/aip.php?tp=sq" alt="počítadlo.abz.cz" border="0" /></a>
+  <br><br><br><br>  
+&nbsp;&nbsp;
+<a title="COVERSITE - Co hledáte máte zde !!" href="http://coversite.kvalitne.cz" target="_blank"><span style="font-size: xx-small;">COVERSITE - Co hledáte máte zde !!</span></a>
+&nbsp;&nbsp;
+<a title="Catalog Clonet - Evropský katalog webových stránek" href="http://clonet.eu/Osobni-stranky-blogy/Jednotlivci.html" target="_blank"><span style="font-size: xx-small;">Evropský katalog</span></a>
+&nbsp;&nbsp;
+<a title="Katalog www stránek, firem a e-shopů" href="http://ikrab.cz" target="_blank"><span style="font-size: xx-small;">Katalog stránek</span></a>
+&nbsp;&nbsp;
+<a href="http://www.istranky.kvalitne.cz/katalog-odkazu.php" target="_blank"><span style="font-size: xx-small;">Katalog odkazů:</span></a><a href="http://www.istranky.kvalitne.cz"><span style="font-size: xx-small;">www.istranky.kvalitne.cz</span></a>
+&nbsp;&nbsp;
+<a href="http://jahho.cz/" title="JAHHO - internetový portál" target="_blank"><span style="font-size: xx-small;">JAHHO.cz</span></a>
+&nbsp;&nbsp;
+<a href="http://weblinker.cz/kategorie/14-Hry/" target="_blank"><span style="font-size: xx-small;">Weblinker.cz</span></a>
+&nbsp;&nbsp;
+<a href="http://odkazy.123www.biz/" title="Odkazy nejenom pro lepší SEO" target="_blank"><span style="font-size: xx-small;">123www.biz</span></a>
+&nbsp;&nbsp;
+<a href="http://katalog.new-world.cz" title="Katalog webů - české a slovenské stránky" target="_blank"><span style="font-size: xx-small;">Katalog webů</span></a>
+&nbsp;&nbsp;
+<a href="http://www.kompletne.cz/kmpl/38041" title="Portál, katalog a vyhledávač internetových stránek.." target="_blank"><span style="font-size: xx-small;">Kompletně.cz</span></a>
+&nbsp;&nbsp;
+<a href="http://katalog.liver.cz" title="Katalog Liver" target="_blank"><span style="font-size: xx-small;">Katalog.Liver.Cz</span></a>
+&nbsp;&nbsp;
+<a href="http://lp-directory.okamzite.eu" title="přidat odkaz" target="_blank"><span style="font-size: xx-small;">přidat odkaz</span></a>
+&nbsp;&nbsp;
+<a href="http://www.jecko.cz/"  target="_blank"><span style="font-size: xx-small;">jéčko.cz</span></a>
+&nbsp;&nbsp;
+<a href="http://najednou.cz" title="Najednou.cz - Váš nový portál a katalog firem" target="_blank"><span style="font-size: xx-small;" >Najednou.cz - Váš nový portál a katalog firem</span></a>
+&nbsp;&nbsp;
+<a href="http://www.startmenu.cz/odkazy/" target="_blank"><span style="font-size: xx-small;" >Spáčil reality - Katalog odkazů</span></a>
+&nbsp;&nbsp;
+<a href="http://toplink.miliweb.net" title="Toplink - katalog odkazů" target="_blank"><span style="font-size: xx-small;" >Toplink - katalog odkazů</span></a>
+&nbsp;&nbsp;
+<a href="http://byng.cz" title="Katalog a vyhledávač www stránek" target="_blank"><span style="font-size: xx-small;" >Byng.cz - katalog odkazů</span></a>
+&nbsp;&nbsp;
+<a href="http://www.xex.cz" title="Výjimečný katalog" target="_blank"><span style="font-size: xx-small;" >XEX.CZ</span></a>
+&nbsp;&nbsp;
+<a href="http://www.katalogy.org" target="_blank"><span style="font-size: xx-small;" >Katalog českých a zahraničních katalogů internetových stránek a e-shopů, fulltextových vyhledávačů a vyhledávačů zboží.</span></a>
+&nbsp;&nbsp;
+<a href="http://www.scrubtheweb.com/" title="Free SEO Tools" target="_blank"><span style="font-size: xx-small;" >Free SEO Tools</span></a>
+<br/><br/>
+ 
+<a title="Catalog Clonet - stránky registrovány v evropském katalogu" target="_blank" rel="follow" href="http://clonet.eu/"><img border="0" src="http://clonet.eu/UserFiles/but_valid.png" alt="Evropský katalog stránek"></a>
+    <a href="http://www.em-design.cz/shop/pages-links/" title="Katalog odkazů" target="_blank"><span style="font-size: xx-small;">.: EM-LINKS :.</span></a>
+<a href="http://www.sprehledem.cz" target="_blank"><img src="http://www.sprehledem.cz/ikonky/88x31ba.gif" alt="sprehledem.cz" border="0" /></a>
+
+<!-- ---- http://pocitadlo.abz.cz/ ---- --></div>
     
+    <script>
+        function hover(element) {
+            element.setAttribute('src', 'src/index/prvnidils.png');
+        }
+
+        function unhover(element) {
+            element.setAttribute('src', 'src/index/prvnidilk.png');
+        }
+
+        function hover1(element) {
+            element.setAttribute('src', 'src/index/druhydils.png');
+        }
+
+        function unhover1(element) {
+            element.setAttribute('src', 'src/index/druhydilk.png');
+        }
+
+        function hover2(element) {
+            element.setAttribute('src', 'src/index/tretidils.png');
+        }
+
+        function unhover2(element) {
+            element.setAttribute('src', 'src/index/tretidilk.png');
+        }
+
+        function hover3(element) {
+            element.setAttribute('src', 'src/index/others.png');
+        }
+
+        function unhover3(element) {
+            element.setAttribute('src', 'src/index/otherk.png');
+        }
+
+        function hover4(element) {
+            element.setAttribute('src', 'src/index/maps.png');
+        }
+
+        function unhover4(element) {
+            element.setAttribute('src', 'src/index/mapk.png');
+        }
+
+        function hover5(element) {
+            element.setAttribute('src', 'src/index/oss.png');
+        }
+
+        function unhover5(element) {
+            element.setAttribute('src', 'src/index/osk.png');
+        }
+
+        function hover6(element) {
+            element.setAttribute('src', 'src/index/konts.png');
+        }
+
+        function unhover6(element) {
+            element.setAttribute('src', 'src/index/kontk.png');
+        }
+
+        function kniha(element) {
+            element.setAttribute('src', 'src/index/knihs.png');
+        }
+
+        function unkniha(element) {
+            element.setAttribute('src', 'src/index/knihk.png');
+        }
+
+        function domu(element) {
+            element.setAttribute('src', 'src/index/domus.png');
+        }
+
+        function undomu(element) {
+            element.setAttribute('src', 'src/index/domuk.png');
+        }
+
+    </script>
+
+    <script>
+        // When clicking the element ID "modal"
+        $("#contact").click(function() {
+
+            // Run sweet modal
+            $.sweetModal({
+                title: 'E-mail',
+                content: '<a style="color: black;" href="mailto:rada.j@upcmail.cz?Subject=Email%20z%20PVB" target="_top">rada.j@upcmail.cz</a>',
+                theme: $.sweetModal.THEME_LIGHT
+            });
+
+        });
+
+    </script>
+
+
+
+
 </body>
+
 </html>

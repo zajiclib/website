@@ -1,0 +1,125 @@
+html,
+body {
+    background-color: #274456;
+}
+.main {
+    margin: auto;
+    height: 3516px;
+    width: 1220px;
+    background: url(../src/24_25/bg.jpg) no-repeat center;
+    align-content: center;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    text-align: center;
+}
+.header {
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+.podnadpis {
+    padding-top: 10px;
+    color: rgb(255, 128, 0);
+    line-height: 2pt;
+    letter-spacing: 1.5pt;
+    font-weight: normal;
+}
+.podnadpis h2 {
+    font-size: 35px;
+    word-spacing: 2pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    font-weight: bold;
+    color: white;
+    
+}
+.kapitola {
+    font-family: sans-serif, arial;
+    font-size: 20px;
+    color: white;    
+    font-weight: normal;
+}
+.text {
+    color: white;
+    font-size: 21px;
+    font-family: "Arial", arial, sans-serif;
+}
+.napis {
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 34px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+    color: white;
+}
+.mysl {
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+}
+
+.pdf img {
+    position: relative;
+    top: -2670px;
+    left: 350px;
+    width: 150px;
+    height: auto;
+}
+
+.pdf img:hover {
+    filter: invert(1);
+}
+
+
+.pdf2 img {
+    position: relative;
+    top: -1200px;
+    left: 350px;
+    width: 150px;
+    height: auto;
+    
+}
+
+.pdf2 img:hover {
+    filter: invert(1);
+}
+
+.gall img {
+    position: relative;
+    top: -165px;
+    left: -20px;
+    width: 880px;
+    height: auto;
+    opacity: 0;
+}
+
+.gall2 img {
+    position: relative;
+    top: -2450px;
+    left: -20px;
+    width: 900px;
+    height: 500px;
+    opacity: 0;
+}
+.pecet img {
+    position: relative;
+    top: -1830px;
+    left: -500px;
+    width: 85px;
+    height: auto;
+}

@@ -1,0 +1,131 @@
+html,
+body {
+    background-color: #121C36;
+}
+
+.main {
+    margin: auto;
+    height: 2248px;
+    width: 1220px;
+    background: url(../src/index/bg.jpg) no-repeat center;
+    align-content: center;
+}
+
+.header {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.telo {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 160px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e8e8e8;
+    font-family: arial, helvetica, sans-serif;
+    letter-spacing: 1pt;
+    word-spacing: 1pt;
+    margin-right: 0;
+}
+
+.prvni img {
+    width: auto;
+    height: 200px;
+    padding-top: -20px;
+    padding-left: 40px;
+}
+
+.druhy img {
+    width: auto;
+    height: 200px;
+    padding-left: 140px;
+    padding-top: -20px;
+}
+
+.treti img {
+    width: auto;
+    height: 200px;
+    padding-top: -20px;
+    padding-left: 40px;
+}
+
+.ctvrty img {
+    width: auto;
+    height: 110px;
+    padding-top: 130px;
+    padding-left: 90px;
+}
+
+.mapa img {
+    height: 150px;
+    width: auto;
+    position: relative;
+    padding-left: 0px;
+    top: -2100px;
+    left: 1025px;
+}
+
+.sesty img {
+    height: 150px;
+    width: auto;
+    position: relative;
+    padding-left: 20px;
+    top: -800px;
+    right: -975px;
+}
+
+.cont img {
+    height: 170px;
+    width: auto;
+    position: relative;
+    top: -740px;
+    left: 600px;
+    padding-left: 0px;
+}
+
+.osmy img {
+    height: 230px;
+    width: auto;
+    position: relative;
+    top: -930px;
+    right: -975px;
+    padding-left: 0px;
+}
+
+.domu img {
+    height: 200px;
+    width: auto;
+    position: relative;
+    top: -750px;
+    right: -1000px;
+    padding: 10px;
+}
+
+.galerie img {
+    width: 1190px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: -420px;
+}
+
+.galerie img:hover {
+    opacity: 1;
+    filter: contrast(200%);
+    filter: brightness(130%);
+}
+
+.seo {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    color: blue;
+}

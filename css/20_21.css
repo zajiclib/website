@@ -1,0 +1,117 @@
+html,
+body {
+    background-color: #142B3D;
+}
+.main {
+    margin: auto;
+    height: 3437px;
+    width: 1220px;
+    background: url(../src/20_21/bg.jpg) no-repeat center;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif, arial;
+    font-size: 15px;
+    text-align: center;
+}
+.header {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+.podnadpis {
+    padding-top: 20px;
+    color: rgb(255, 128, 0);
+    line-height: 2pt;
+    letter-spacing: 1.5pt;
+    font-weight: normal;
+}
+.podnadpis h2 {
+    font-size: 35px;
+    word-spacing: 2pt;
+    text-transform: uppercase;
+    letter-spacing: 2pt;
+    font-weight: bold;
+    color: white;
+}
+.kapitola {
+    font-family: sans-serif, arial;
+    font-size: 20px;
+    color: white;    
+    font-weight: normal;
+}
+.text {
+    color: white;
+    font-size: 21px;
+    font-family: "Arial", arial, sans-serif;
+}
+.napis {
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 34px;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+    color: white;
+}
+.mysl {
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+}
+.pdf img {
+    position: relative;
+    top: -2620px;
+    left: 400px;
+    width: 200px;
+    height: auto;
+}
+.pdf img:hover {
+    filter: invert(1);
+}
+.pdf2 img {
+    position: relative;
+    top: -1570px;
+    left: 350px;
+    width: 150px;
+    height: auto;
+}
+.pdf2 img:hover {
+    filter: invert(1);
+}
+
+.pecet img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: -2734px;
+    left: -500px;
+}
+.gall img {
+    position: relative;
+    width: 1200px;
+    height: 250px;
+    top: -2370px;
+    left: 0px;
+    opacity: 0;
+}
+.gall2 img {
+    position: relative;
+    width: 890px;
+    height: 270px;
+    top: -630px;
+    left: 0px;
+    opacity: 0;
+}
